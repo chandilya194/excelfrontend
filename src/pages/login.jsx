@@ -4,6 +4,7 @@ import { useNavigate,Link } from "react-router-dom";
 
 export function Login() {
     const navigate = useNavigate();
+  const url = import.meta.env.VITE_API_URL;
 
   const [form, setForm] = useState({ email: "", password: "" ,role:"user"});
   const [message, setMessage] = useState("");
@@ -20,7 +21,7 @@ export function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/auth/login", form)
+      await axios.post(`${url}/auth/login`, form)
       .then((res)=>{
 setMessage("Login successful!");
       console.log(res.data.message); 

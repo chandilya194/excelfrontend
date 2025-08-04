@@ -6,6 +6,8 @@ import axios from "axios";
 import { useEffect, useState } from "react";
  
 function MainContent() {
+    const url = import.meta.env.VITE_API_URL;
+
  const token= localStorage.getItem("token") 
  const [name,Setname]= useState("")
  const [count,Setcount]= useState(0)
@@ -13,7 +15,7 @@ function MainContent() {
  const [delcheck,Setdelcheck]= useState(0)
 useEffect(()=>{
 
-   axios.get("http://localhost:5000/upload",{headers:{Authorization:`Bearer ${token}`}})
+   axios.get(`${url}/upload`,{headers:{Authorization:`Bearer ${token}`}})
  .then((res)=>{
   // console.log(res.data.name)
   //  console.log(res.data.upload)

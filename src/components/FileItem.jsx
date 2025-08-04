@@ -5,13 +5,15 @@ import axios from "axios";
 import { useState } from "react";
 
 function FileItem({ id,fileName, date}) {
+    const url = import.meta.env.VITE_API_URL;
+
   const navigate = useNavigate();
   const [delconst,Setdelconst]= useState(0)
   const itemdelete=()=>{ 
      Setdelconst(1)
      const token= localStorage.getItem("token")
      
-axios.delete("http://localhost:5000/upload/"+id,{headers:{Authorization:`Bearer ${token}`}})
+axios.delete(`${url}/upload/`+id,{headers:{Authorization:`Bearer ${token}`}})
 .then((res)=>console.log(res.data.mess))
   }
   const gotoo=()=>{

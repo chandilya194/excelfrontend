@@ -2,13 +2,15 @@ import axios from "axios"
 import { useEffect,useState } from "react"
 import { useNavigate } from "react-router-dom"
 export function Admindash(){
+      const url = import.meta.env.VITE_API_URL;
+
     const [users,Setusers]=useState([])
     const [uploads,Setuploads]=useState([])
     const navigate=useNavigate();
     useEffect(()=>{
         const token= localStorage.getItem("token")
 
-     axios.get("http://localhost:5000/upload/admin",{headers:{Authorization:`Bearer ${token}`}})
+     axios.get(`${url}/upload/admin`,{headers:{Authorization:`Bearer ${token}`}})
      .then((res)=>{
     //   console.log(res.data.users.length)
     //   console.log(res.data.uploads.length)

@@ -3,6 +3,7 @@ import axios from "axios";
 import {Link} from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 export function Register() {
+  const url = import.meta.env.VITE_API_URL;
   const navigate= useNavigate();
   const [form, setForm] = useState({
     username: "",
@@ -27,7 +28,7 @@ export function Register() {
         alert("Email should not start with a capital letter.")
         return;
       }
-      const res = await axios.post("http://localhost:5000/auth/register", form);
+      const res = await axios.post(`${url}/auth/register`, form);
       setMessage("Registered successfully!");
       setForm({ username: "",email: "",password: ""})
       const gotologin= window.confirm("Registered successfully.")

@@ -8,6 +8,8 @@ import { useSearchParams } from "react-router-dom";
 
 export function Check() {
   // const [file, setFile] = useState();
+    const url = import.meta.env.VITE_API_URL;
+
   const [charttype,SetCharttype]=useState("bar");
   // const [chartdata,SetChartData]=useState([]);
     const [labels, setLabels] = useState(["hai"]);
@@ -30,7 +32,7 @@ export function Check() {
     if(mode==='analyze'){
       const token= localStorage.getItem("token")
 
-      axios.get("http://localhost:5000/upload",{headers:{Authorization:`Bearer ${token}`}})
+      axios.get(`${url}/upload`,{headers:{Authorization:`Bearer ${token}`}})
       .then((res)=>{
               const thatfile= res.data.upload.find(s=>s._id===id)
                 SetExceldata(thatfile.jsonData);
