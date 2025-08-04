@@ -57,7 +57,7 @@ export function Check() {
     const formData = new FormData();
     formData.append("file", tempfile);
 const token= localStorage.getItem("token")
-     await axios.post("http://localhost:5000/upload", formData,{headers:{Authorization:`Bearer ${token}`}})
+     await axios.post(`${url}/upload`, formData,{headers:{Authorization:`Bearer ${token}`}})
       .then((res) => {
         console.log(res.data.data);
         //SetChartData([{g:'djbsb',h:'ksjsj',i:'sksjs'},{k:'cvff',l:'fvvfv','vfvv'}])
