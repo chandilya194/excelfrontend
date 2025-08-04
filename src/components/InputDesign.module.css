@@ -1,0 +1,588 @@
+.builder49702e2b8c624dd096b06be519e71f71:hover,
+.builder15665a19ec8a4780b35e6afdf6edc8b1:hover,
+.builder426e15691a6b494cba7e7818d18b01de:hover,
+.builderC4dd39d5567d41a9b938bfd8fab8e57d:hover {
+  color: #fff;
+}
+.desktop1 {
+  margin: 0px;
+  background-color: #ceccf3;
+  align-items: flex-start;
+  width: 100vw; 
+  min-height: 100vh;
+  font-family: League Spartan, sans-serif;
+  display: flex;
+}
+.inner{
+  position: fixed;
+  
+}
+@media (width<=991px) {
+  .desktop1 {
+    flex-direction: column;
+  }
+}
+.staticMenu {
+  box-sizing: border-box;
+  background-color: #d3d2ff;
+  border: 1px solid #767474;
+  border-top: none;
+  position: fixed;
+flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  gap: 420px;
+  display: flex;
+  width: 251px;
+  min-height: 100vh;
+  height: 100%;
+  padding: 27px 30px;
+  padding-top: 40px;
+}
+@media (width<=991px) {
+  .staticMenu {
+    gap: 20px;
+    width: 100%;
+    min-height: auto;
+    padding: 20px;
+  }
+}
+@media (width<=640px) {
+  .staticMenu {
+    gap: 15px;
+    padding: 15px;
+  }
+}
+.menuTop {
+  flex-direction: column;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 15px;
+  display: flex;
+}
+@media (width<=991px) {
+  .menuTop {
+    gap: 20px;
+  }
+}
+.excelView {
+  color: #000;
+  opacity: 0.7;
+  font: 700 44px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .excelView {
+    font-size: 32px;
+  }
+}
+@media (width<=640px) {
+  .excelView {
+    font-size: 28px;
+  }
+}
+.menuContent {
+  flex-direction: column;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 41px;
+  padding: 0px;
+  display: flex;
+}
+@media (width<=991px) {
+  .menuContent {
+    gap: 20px;
+  }
+}
+@media (width<=640px) {
+  .menuContent {
+    gap: 15px;
+    padding: 5px;
+  }
+}
+.dashboard {
+  cursor: pointer;
+  align-self: stretch;
+  align-items: center;
+  gap: 17px;
+  display: flex;
+}
+.dashboard2 {
+  color: #000;
+  opacity: 0.8;
+  font: 500 22px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .dashboard2 {
+    font-size: 18px;
+  }
+}
+@media (width<=640px) {
+  .dashboard2 {
+    font-size: 16px;
+  }
+}
+.uploadFile {
+  cursor: pointer;
+  align-self: stretch;
+  align-items: center;
+  gap: 17px;
+  display: flex;
+}
+.uploadfile {
+  color: #000;
+  opacity: 0.8;
+  font: 400 22px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .uploadfile {
+    font-size: 18px;
+  }
+}
+@media (width<=640px) {
+  .uploadfile {
+    font-size: 16px;
+  }
+}
+.chartTypes {
+  cursor: pointer;
+  align-self: stretch;
+  align-items: center;
+  gap: 17px;
+  display: flex;
+}
+.charttypes {
+  color: #000;
+  opacity: 0.8;
+  font: 400 22px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .charttypes {
+    font-size: 18px;
+  }
+}
+@media (width<=640px) {
+  .charttypes {
+    font-size: 16px;
+  }
+}
+.adminPanel {
+  cursor: pointer;
+  align-self: stretch;
+  align-items: center;
+  gap: 17px;
+  display: flex;
+}
+.adminpanel {
+  color: #000;
+  opacity: 0.8;
+  font: 400 22px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .adminpanel {
+    font-size: 18px;
+  }
+}
+@media (width<=640px) {
+  .adminpanel {
+    font-size: 16px;
+  }
+}
+.logout {
+  align-items: center;
+  gap: 12px;
+  display: flex;
+  cursor: pointer;
+}
+.logout2 {
+  color: #b53531;
+  font: 700 30px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .logout2 {
+    font-size: 24px;
+  }
+}
+@media (width<=640px) {
+  .logout2 {
+    font-size: 20px;
+  }
+} 
+.main {
+  
+  background-color: #cdccf3;
+  flex-direction: column;
+  flex: 1 0 0;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+  padding: 99px 48px 28px 300px;
+  display: flex;
+}
+@media (width<=991px) {
+  .main {
+    gap: 40px;
+    padding: 40px 24px 20px;
+  }
+}
+@media (width<=640px) {
+  .main {
+    gap: 30px;
+    padding: 20px 16px 16px;
+  }
+}
+.head {
+  flex-direction: column;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 14px;
+  display: flex;
+}
+.greeting {
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+@media (width<=640px) {
+  .greeting {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+}
+.hai {
+  color: #000;
+  font: 700 70px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .hai {
+    font-size: 48px;
+  }
+}
+@media (width<=640px) {
+  .hai {
+    font-size: 36px;
+  }
+}
+.chandilya {
+  color: #0c3572;
+  font: 700 70px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .chandilya {
+    font-size: 48px;
+  }
+}
+@media (width<=640px) {
+  .chandilya {
+    font-size: 36px;
+  }
+}
+.uploadyourExcelfilesandvisualizeyourdata {
+  color: #000;
+  opacity: 0.5;
+  align-self: stretch;
+  font: 400 20px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .uploadyourExcelfilesandvisualizeyourdata {
+    font-size: 16px;
+  }
+}
+@media (width<=640px) {
+  .uploadyourExcelfilesandvisualizeyourdata {
+    font-size: 14px;
+  }
+}
+.cards {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 17px;
+  height: 196px;
+  padding: 10px;
+  display: flex;
+}
+@media (width<=991px) {
+  .cards {
+    flex-direction: column;
+    gap: 15px;
+    height: auto;
+  }
+}
+@media (width<=640px) {
+  .cards {
+    gap: 12px;
+  }
+}
+.uploadCard {
+  background-color: #d3d2ff;
+  border: 1px solid #1f5099;
+  border-radius: 15px;
+  flex-direction: column;
+  flex: 1 0 0;
+  justify-content: center;
+  align-self: stretch;
+  align-items: center;
+  gap: 14px;
+  padding: 30px;
+  display: flex;
+}
+@media (width<=991px) {
+  .uploadCard {
+    padding: 20px;
+  }
+}
+@media (width<=640px) {
+  .uploadCard {
+    padding: 15px;
+  }
+}
+.css0 {
+  color: #1f5099;
+  font: 700 64px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .css0 {
+    font-size: 48px;
+  }
+}
+@media (width<=640px) {
+  .css0 {
+    font-size: 36px;
+  }
+}
+.uploads {
+  color: #1f5099;
+  letter-spacing: 0.37px;
+  font: 700 48px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .uploads {
+    font-size: 28px;
+  }
+}
+@media (width<=640px) {
+  .uploads {
+    font-size: 20px;
+  }
+}
+.downloadCard {
+  background-color: #d3d2ff;
+  border: 1px solid #1f5099;
+  border-radius: 15px;
+  flex-direction: column;
+  flex: 1 0 0;
+  justify-content: center;
+  align-self: stretch;
+  align-items: center;
+  gap: 14px;
+  padding: 30px;
+  display: flex;
+}
+@media (width<=991px) {
+  .downloadCard {
+    padding: 20px;
+  }
+}
+@media (width<=640px) {
+  .downloadCard {
+    padding: 15px;
+  }
+}
+.downloads {
+  color: #1f5099;
+  letter-spacing: 0.37px;
+  font: 700 48px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .downloads {
+    font-size: 28px;
+  }
+}
+@media (width<=640px) {
+  .downloads {
+    font-size: 20px;
+  }
+}
+.uploadfileCard {
+  box-sizing: border-box;
+  background-color: #cdccf3;
+  border: 1px dashed #1f5099;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 113px; */
+  padding: 27px;
+  display: flex;
+}
+@media (width<=640px) {
+  .uploadfileCard {
+    padding: 20px;
+  }
+}
+.delbut{
+  padding:0px;
+  border: none;
+  background: none;
+}
+.delimg{
+  width: 55px;
+  height: 50px;
+}
+.uploadfileButton {
+  cursor: pointer;
+  background-color: #1f5099;
+  border-radius: 40px;
+  border: none;
+  flex: 1 0 0;
+  align-self: stretch;
+  align-items: center;
+  gap: 25px;
+  padding: 15px 33px;
+  display: flex;
+}
+@media (width<=640px) {
+  .uploadfileButton {
+    gap: 15px;
+    padding: 12px 20px;
+  }
+}
+.uploadfile2 {
+  color: #fdfdff;
+  font: 700 30px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .uploadfile2 {
+    font-size: 24px;
+  }
+}
+@media (width<=640px) {
+  .uploadfile2 {
+    font-size: 20px;
+  }
+}
+.uploadHistory {
+  flex-direction: column;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 40px;
+  display: flex;
+}
+.uploadhistory {
+  color: #000;
+  align-self: stretch;
+  font: 700 42px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .uploadhistory {
+    font-size: 32px;
+  }
+}
+@media (width<=640px) {
+  .uploadhistory {
+    font-size: 28px;
+  }
+}
+.historyFiles {
+  flex-direction: column;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 20px;
+  display: flex;
+}
+.historyFile {
+  box-sizing: border-box;
+  background-color: #d3d2ff;
+  border: 1px solid #1f5099;
+  border-radius: 15px;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  gap: 43px;
+  /* height: 106px; */
+    padding: 10px 33px;
+  display: flex;
+}
+@media (width<=640px) {
+  .historyFile {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    height: auto;
+    padding: 12px 20px;
+  }
+}
+.fileBody {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  gap: 5px;
+  display: flex;
+}
+.fileName {
+  color: #000;
+  font: 400 28px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .fileName {
+    font-size: 28px;
+  }
+}
+.css25725 {
+  color: #000;
+  letter-spacing: 1.14px;
+  opacity: 0.5;
+  align-self: stretch;
+  font: 400 13px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .css25725 {
+    font-size: 18px;
+  }
+}
+.fileButton {
+  flex: 1 0 0;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 29px;
+  display: flex;
+}
+@media (width<=640px) {
+  .fileButton {
+    justify-content: stretch;
+    gap: 15px;
+  }
+}
+.analyzeButton {
+  cursor: pointer;
+  background-color: #1f5099;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 20px;
+  display: flex;
+  border: none;
+}
+@media (width<=640px) {
+  .analyzeButton {
+    width: 100%;
+    height: 50px;
+    padding: 12px 20px;
+  }
+}
+.analyze {
+  color: #fff;
+  letter-spacing: 0.95px;
+  font: 400 22px League Spartan, sans-serif;
+}
+@media (width<=991px) {
+  .analyze {
+    font-size: 24px;
+  }
+}
+@media (width<=640px) {
+  .analyze {
+    font-size: 20px;
+  }
+}
